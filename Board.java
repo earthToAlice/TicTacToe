@@ -29,10 +29,11 @@ class Board
     public void draw()
     {
         //Prints top horizontal line
-        System.out.println("\n|=-=|=-=|=-=|");
+        System.out.println("\n||==-=-=-=|=-=|=-=|=-=|=-=-=-==|");
         //Iterates through grid[][]
         for (int i = 0; i < 3; i++)
         {
+            System.out.print("||==-=-=-=");
             for (int j = 0; j < 3; j++)
             {
                 //Prints horizontal line with numbers in row
@@ -41,7 +42,7 @@ class Board
             } //for(j)
 
             //Prints end "|", then goes down a line and prints a horizontal line
-            System.out.println("|\n|=-=|=-=|=-=|");
+            System.out.println("|=-=-=-==|\n||==-=-=-=|=-=|=-=|=-=|=-=-=-==|");
 
         } //for(i)
         //Creates a space

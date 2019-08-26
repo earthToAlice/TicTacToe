@@ -97,15 +97,28 @@ public class Main
     {
         //Block of print statements that display the title message
         System.out.println("|=-=-=-=-=-=-=-==-=-=-=-=-=-=-=|");
-        System.out.println("|=-=-=-=- Tic-Tac-Toe! -=-=-=-=|");
-        System.out.println("|=-=-=-=- Java Edition -=-=-=-=|");
-        System.out.println("|=-=- Made by earthToAlice -=-=|");
+        System.out.println("|=-=[     Tic-Tac-Toe!     ]=-=|");
+        System.out.println("|=-=[     Java Edition     ]=-=|");
+        System.out.println("|=-=[ Made by earthToAlice ]=-=|");
         System.out.println("|=-=-=-=-=-=-=-==-=-=-=-=-=-=-=|");
 
         //Separator line between title and the rest of the game
         System.out.println("\n- - - - - - - - - - - - - - - - -");
 
     } //title()
+
+    static void chooseMode()
+    {
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("|=-=-=-=-=-=-=-==-=-=-=-=-=-=-=|");
+        System.out.println("|=-=-=[ Choose Game Mode ]=-=-=|");
+        System.out.println("|=-=-=[                  ]=-=-=|");
+        System.out.println("|=-=-=[   1P        2P   ]=-=-=|");
+        System.out.println("|=-=-=-=-=-=-=-==-=-=-=-=-=-=-=|");
+
+        s.close();
+    } //chooseMode()
 
     //Method firstTurn(). Randomly chooses 'X' or 'O' and returns it to the 'turn' variable.
     static char firstTurn()
