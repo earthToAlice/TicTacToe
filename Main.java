@@ -115,7 +115,9 @@ public class Main
         System.out.println("|=-=-=[ Choose Game Mode ]=-=-=|");
         System.out.println("|=-=-=[                  ]=-=-=|");
         System.out.println("|=-=-=[   1P        2P   ]=-=-=|");
-        System.out.println("|=-=-=-=-=-=-=-==-=-=-=-=-=-=-=|");
+        System.out.println("|=-=-=-=-=-=-=-==-=-=-=-=-=-=-=|\n");
+
+        System.out.println("Please enter \"1P\" or \"2P\" to continue.");
 
         s.close();
     } //chooseMode()
